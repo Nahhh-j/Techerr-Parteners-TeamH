@@ -1,8 +1,4 @@
-const a = 5;
-const b = 2;
-const myName = 'nico';
+const dayOfWeek = ['mon', 'tue', 'wed', 'thu', 'fir', 'sat'];
 
-console.log(a + b);
-console.log(a - b);
-console.log(a * b);
-console.log('hello ' + myName);
+dayOfWeek.push('sun');
+console.log(dayOfWeek);
