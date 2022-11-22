@@ -1,8 +1,9 @@
 const player = {
   name: 'nico',
-  points: 10,
-  fat: true,
+  sayHello: function (otherPersonName) {
+    console.log('hello ' + otherPersonName + ' nice to meet you');
+  },
 };
-console.log(player);
-player.fat = false;
-console.log(player);
+
+player.sayHello('minseok');
+player.sayHello('nico');
