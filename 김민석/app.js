@@ -1,18 +1,18 @@
 const calculater = {
   plus: function (a, b) {
-    console.log(a + b);
+    return a + b;
   },
   minus: function (a, b) {
-    console.log(a - b);
+    return a - b;
   },
   divide: function (a, b) {
-    console.log(a / b);
+    return a / b;
   },
   power: function (a, b) {
-    console.log(a ** b);
+    return a ** b;
   },
 };
 
-calculater.plus(5, 6);
-calculater.divide(6, 2);
-calculater.power(2, 3);
+alert(calculater.plus(5, 6));
+alert(calculater.divide(6, 2));
+alert(calculater.power(2, 3));
