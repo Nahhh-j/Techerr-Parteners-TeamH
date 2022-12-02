@@ -1,4 +1,4 @@
-const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+const daysOfWeek = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 
 const nonsense = [1, 2, 'hello', false, null, true, undefined, 'nico'];
 
@@ -8,9 +8,9 @@ console.log(daysOfWeek);
 console.log(daysOfWeek[4]);
 
 // Add one more day to the array
-daysOfWeek.push("sun");
+daysOfWeek.push('sun');
 
 console.log(daysOfWeek);
 
-const toBuy = ["potato","tomato","pizza"];
+const toBuy = ['potato', 'tomato', 'pizza'];
 console.log(toBuy[2]);

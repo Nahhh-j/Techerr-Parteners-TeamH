@@ -17,4 +17,4 @@ console.log('hello' + myName);
 
 myName = 'nicolas';
 
-console.log('your new name is' + myName);
+console.log('your new name is ' + myName);

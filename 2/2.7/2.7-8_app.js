@@ -14,7 +14,7 @@ function divide(a, b) {
   console.log(a / b);
 }
 
-plus(8 + 6);
+plus(8, 6);
 divide(98, 20);
 
 const player = {
