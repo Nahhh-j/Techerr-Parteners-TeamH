@@ -8,14 +8,16 @@
     <title>Momentum App</title>
   </head>
   <body>
-    <form id="login-form">
+    <form class="hidden" id="login-form">
       <input
+        type="text"
         required
         maxlength="15"
-        type="text"
-        placeholder="what is your name?"
+        placeholder="What is your name"
       />
       <input type="submit" value="Log In" />
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
     </form>
     <script src="app.js"></script>
   </body>
